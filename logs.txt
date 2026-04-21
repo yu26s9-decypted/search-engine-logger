@@ -1,0 +1,47 @@
+
+04-21-2026 11:36:20launch : ---logging initialized...--- 
+04-21-2026 11:36:31search : amazon
+04-21-2026 11:36:40launch : ---logging initialized...--- 
+04-21-2026 11:36:42launch : ---logging initialized...--- 
+04-21-2026 11:36:43search : azure
+04-21-2026 11:36:45search : sql
+04-21-2026 11:36:47search : postgres
+04-21-2026 11:36:53search : load balancing
+04-21-2026 11:36:54search : cluster
+04-21-2026 11:36:57search : surrealdb
+04-21-2026 11:36:58search : kafka
+04-21-2026 11:37:29launch : ---logging initialized...--- 
+04-21-2026 11:37:36launch : ---logging initialized...--- 
+04-21-2026 11:37:41search : vercel
+04-21-2026 11:37:41search : azure
+04-21-2026 11:37:43search : google cloud
+04-21-2026 11:37:45search : postgres
+04-21-2026 11:37:46search : neondb
+04-21-2026 11:37:48search : mongodb
+04-21-2026 11:37:53search : cdn
+04-21-2026 11:38:12launch : ---logging initialized...--- 
+04-21-2026 11:38:29search : data structure & algo
+04-21-2026 11:38:41search : union find
+04-21-2026 11:38:44search : segment tree
+04-21-2026 11:38:46search : iterative dfs
+04-21-2026 11:38:47search : two heap
+04-21-2026 11:38:53search : palindromes
+04-21-2026 11:39:03search : Dijkstra's
+04-21-2026 11:39:05terminate : ---end of log---
+04-21-2026 11:39:48(type: launch) : ---logging initialized...--- 
+04-21-2026 11:40:02(type: search) : factory method
+04-21-2026 11:40:03(type: search) : singeton
+04-21-2026 11:40:04(type: search) : builder
+04-21-2026 11:40:07(type: search) : prototype
+04-21-2026 11:40:08(type: search) : facade
+04-21-2026 11:40:10(type: search) : observer
+04-21-2026 11:40:11(type: search) : state
+04-21-2026 11:40:13(type: terminate) : ---end of log---
+04-21-2026 11:41:11 (type: launch) : ---logging initialized...--- 
+04-21-2026 11:41:14 (type: search) : mongodb
+04-21-2026 11:41:16 (type: search) : surrealdb
+04-21-2026 11:41:35 (type: search) : azure sql
+04-21-2026 11:41:37 (type: search) : redis
+04-21-2026 11:41:40 (type: search) : Dynamo
+04-21-2026 11:41:43 (type: search) : NeonDB
+04-21-2026 11:41:44 (type: terminate) : ---end of log---
