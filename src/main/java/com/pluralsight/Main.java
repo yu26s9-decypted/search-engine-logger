@@ -12,7 +12,7 @@ public class Main {
         String logfile = "logs.txt";
         FileWriter fileWriter = new FileWriter(logfile, true);
         String logAction = "launch";
-        writeToLogs(fileWriter, "---logging initialized...--- ", logAction);
+        writeToLogs(fileWriter, "[--- LOG INITIALIZED... ---]", logAction);
         fileWriter.flush();
         boolean userIsSearching = true;
         do {
@@ -23,7 +23,7 @@ public class Main {
                     userIsSearching = false;
                     System.out.println("A complete log of your searches has been generated in: " + logfile );
                     logAction = "terminate";
-                    writeToLogs(fileWriter, "---end of log---", logAction);
+                    writeToLogs(fileWriter, "[--- END OF LOG ---]", logAction);
                     fileWriter.close();
                     break;
 
