@@ -42,11 +42,15 @@ public class Main {
 
     }
 
-    public static String writeToLogs(FileWriter fileWriter, String outputLogs, String logType) throws IOException {
+    public static String writeToLogs(FileWriter fileWriter, String outputLogs, String logAction) throws IOException {
         LocalDateTime today = LocalDateTime.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM-dd-yyyy HH:mm:ss");
         String formattedDate = today.format(formatter);
-        fileWriter.append("\n" + formattedDate + " (action: "+ logType + ")" + " : " + outputLogs);
+        if (logAction.equalsIgnoreCase("launch") || logAction.equalsIgnoreCase("terminate")) {
+            fileWriter.append("\n" + formattedDate + " (action: "+ logAction + ")" + outputLogs);
+        } else {
+            fileWriter.append("\n" + formattedDate + " (action: "+ logAction + ")" + " : " + outputLogs);
+        }
         return "Added to logs";
     }
 }
